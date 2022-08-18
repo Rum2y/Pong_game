@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pong Game</title>
+  </head>
+  <body class="body">
+    <h1>PiNg PoNg</h1>
+    <div class="container play-area">
+      <div class="p1 player">
+        <div class="direct1 upper"></div>
+        <div class="direct1 up"></div>
+        <div class="direct1 middle"></div>
+        <div class="direct1 bottom"></div>
+        <div class="direct1 down"></div>
+      </div>
+
+      <div class="score ms-5"><span class="score-text">0</span></div>
+
+      <div class="ball right"></div>
+      <div class="split"></div>
+
+      <div class="score me-5"><span class="score-text">0</span></div>
+
+      <div class="p2 player">
+        <div class="direct2 upper"></div>
+        <div class="direct2 up"></div>
+        <div class="direct2 middle"></div>
+        <div class="direct2 bottom"></div>
+        <div class="direct2 down"></div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="starting">
+      <div class="heading"><h1>HOW DO YOU WANT TO PLAY</h1></div>
+      <div class="buttons">
+        <button class="options">Keyboard</button>
+        <button class="options">Mouse</button>
+      </div>
+    </div>
+
+    <div class="decision">
+      <div class="win">
+        <h1 class="final">You Win</h1>
+      </div>
+      <div class="reset">
+        <button class="restart">Play Again</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
